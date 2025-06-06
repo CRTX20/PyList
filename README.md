@@ -48,6 +48,3 @@ See the rest of this README for setup and usage instructions.
 - `.env.example`: configuration example
 - `requirements.txt`: Python dependencies
 
-## Security Notes
-- Never commit the `.env` or `config.py` file with sensitive data to public repositories.
-- The `.gitignore` file is already configured to exclude these files.
