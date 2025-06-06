@@ -1,8 +1,8 @@
-# BHPlaylist: Telegram to Spotify Playlist Sync
+# PyList: Telegram to Spotify Playlist Sync
 
 ## Purpose
 
-BHPlaylist is a Python project designed to automate the process of collecting Spotify track links shared in a Telegram group or channel and adding them to a specific Spotify playlist. This tool helps music communities and curators keep their Spotify playlists up-to-date with tracks recommended or shared in their Telegram chats, without manual copy-pasting or duplicate entries.
+PyList is a Python project designed to automate the process of collecting Spotify track links shared in a Telegram group or channel and adding them to a specific Spotify playlist. This tool helps music communities and curators keep their Spotify playlists up-to-date with tracks recommended or shared in their Telegram chats, without manual copy-pasting or duplicate entries.
 
 ## Features
 - Connects to a Telegram group or channel and scans recent messages for Spotify track links.
