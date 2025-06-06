@@ -1,8 +1,8 @@
-# PyList: Telegram to Spotify Playlist Sync
+# BHPlaylist: Telegram to Spotify Playlist Sync
 
 ## Purpose
 
-PyList is a Python project designed to automate the process of collecting Spotify track links shared in a Telegram group or channel and adding them to a specific Spotify playlist. This tool helps music communities and curators keep their Spotify playlists up-to-date with tracks recommended or shared in their Telegram chats, without manual copy-pasting or duplicate entries.
+BHPlaylist is a Python project designed to automate the process of collecting Spotify track links shared in a Telegram group or channel and adding them to a specific Spotify playlist. This tool helps music communities and curators keep their Spotify playlists up-to-date with tracks recommended or shared in their Telegram chats, without manual copy-pasting or duplicate entries.
 
 ## Features
 - Connects to a Telegram group or channel and scans recent messages for Spotify track links.
@@ -23,31 +23,31 @@ PyList is a Python project designed to automate the process of collecting Spotif
 ## Getting Started
 See the rest of this README for setup and usage instructions.
 
-## Configurazione ambiente
-1. Copia il file `.env.example` e rinominalo in `.env`:
+## Environment Configuration
+1. Copy the `.env.example` file and rename it to `.env`:
    ```bash
    cp .env.example .env
    ```
-2. Inserisci le tue credenziali Telegram e Spotify nel file `.env`.
+2. Enter your Telegram and Spotify credentials in the `.env` file.
 
-## Esecuzione
-1. Installa le dipendenze:
+## Running the Script
+1. Install the dependencies:
    ```bash
    pip install -r requirements.txt
    ```
-2. Avvia lo script principale:
+2. Start the main script:
    ```bash
    python main.py
    ```
 
-## Struttura del progetto
-- `main.py`: entry point del progetto
-- `src/telegram_utils.py`: funzioni per Telegram
-- `src/spotify_utils.py`: funzioni per Spotify
-- `config.py`: carica le variabili d'ambiente dal file `.env`
-- `.env.example`: esempio di configurazione
-- `requirements.txt`: dipendenze Python
+## Project Structure
+- `main.py`: project entry point
+- `src/telegram_utils.py`: Telegram functions
+- `src/spotify_utils.py`: Spotify functions
+- `config.py`: loads environment variables from the `.env` file
+- `.env.example`: configuration example
+- `requirements.txt`: Python dependencies
 
-## Note di sicurezza
-- Non committare mai il file `.env` o `config.py` con dati sensibili su repository pubblici.
-- Il file `.gitignore` è già configurato per escludere questi file.
+## Security Notes
+- Never commit the `.env` or `config.py` file with sensitive data to public repositories.
+- The `.gitignore` file is already configured to exclude these files.
