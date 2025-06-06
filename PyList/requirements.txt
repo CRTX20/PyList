@@ -1,0 +1,37 @@
+# BHPlaylist Telegram to Spotify Sync
+
+This script extracts Spotify track links from a Telegram chat and adds them to a specified Spotify playlist, avoiding duplicates.
+
+## Features
+- Connects to a Telegram group/channel and scans recent messages for Spotify track links.
+- Adds new tracks to a Spotify playlist, skipping tracks already present.
+
+## Setup
+1. Clone this repository.
+2. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+3. Create a Telegram application to get your `api_id` and `api_hash`: https://my.telegram.org
+4. Create a Spotify application to get your `client_id` and `client_secret`: https://developer.spotify.com/dashboard/applications
+5. Fill in your credentials in `main.py` (see placeholders).
+
+## Usage
+Run the script:
+```bash
+python main.py
+```
+
+## Configuration
+Edit the following variables in `main.py`:
+- `api_id`, `api_hash`, `session_name` (Telegram)
+- `client_id`, `client_secret`, `redirect_uri` (Spotify)
+- `playlist_id` (Spotify playlist to update)
+- `chat_id` (Telegram chat/group/channel ID)
+
+## License
+MIT License
+python-dotenv
+telethon
+spotipy
+
